@@ -1,0 +1,8 @@
+{
+  "project": "L_SIGUTILS",
+  "slug": "BatchDrake/sigutils",
+  "tier": "TIER_8_RF_MESH_DEFENSE",
+  "run_timestamp": "2026-09-30T16:34:21.010714+00:00",
+  "status": "PENDING_FULL_BENCHMARK_RUN",
+  "note": "Run run_benchmarks_comprehensive.py to populate full benchmarks."
+}

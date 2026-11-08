@@ -1,0 +1,88 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9f74f974-2350-541a-8520-0bde4aa62d19",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T06:13:12Z",
+    "component": {
+      "type": "application",
+      "name": "L_SIGUTILS",
+      "version": "ca7e1952dfd0",
+      "bom-ref": "pkg:generic/anticloud/L_SIGUTILS@ca7e1952dfd0",
+      "purl": "pkg:generic/anticloud/L_SIGUTILS@ca7e1952dfd0",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ca7e1952dfd037fbd1a6da3e69cc922bbfbd95f8"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/BatchDrake/sigutils"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Catch2",
+      "version": "unspecified",
+      "purl": "pkg:generic/Catch2",
+      "bom-ref": "native/Catch2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SNDFILE",
+      "version": "unspecified",
+      "purl": "pkg:generic/SNDFILE",
+      "bom-ref": "native/SNDFILE@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "FFTW3",
+      "version": "unspecified",
+      "purl": "pkg:generic/FFTW3",
+      "bom-ref": "native/FFTW3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "VOLK",
+      "version": "unspecified",
+      "purl": "pkg:generic/VOLK",
+      "bom-ref": "native/VOLK@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Doxygen",
+      "version": "unspecified",
+      "purl": "pkg:generic/Doxygen",
+      "bom-ref": "native/Doxygen@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Coverxygen",
+      "version": "unspecified",
+      "purl": "pkg:generic/Coverxygen",
+      "bom-ref": "native/Coverxygen@unspecified"
+    }
+  ]
+}
